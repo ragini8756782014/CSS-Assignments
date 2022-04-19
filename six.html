@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="six.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            Student Registration Form
+        </div>
+        <form class="user-details">
+            <div class="input_field">
+                <label> Name</label>
+                <input type="text" class="input" placeholder="Enter full name" required>
+            </div>
+            <div class="input_field">
+                <label> Father's Name:</label>
+                <input type="text" class="input"  required>
+            </div>
+            <div class="input_field">
+                <label> Mother's Name:</label>
+                <input type="text" class="input" required>
+            </div>
+            <div class="input_field">
+                <label> Email:</label>
+                <input type="email" class="input" placeholder="sample@example.com" required>
+            </div>
+            <div class="input_field">
+                <label> Phone Number:</label>
+                <input type="tel" class="input"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+            </div>
+            <div class="input_field">
+                <label>Date of birth:</label>
+                <input type="date" class="input" required>
+            </div>
+            <div class="input_field">
+                <label> Address:</label>
+                <input type="text" placeholder="Street:- House:- Road:-"  class="input" required>
+            </div>
+            <div class="choose" >
+                <label> Gender:</label>
+                <span class="dot one"></span>
+                <input type="radio" id="gender" name="gender" required>male
+                <input type="radio" id="gender" name="gender" required>Female
+                <input type="radio" id="gender" name="gender">others
+            </div>
+            <div class="Hobbies">
+                <label> Blood group:</label>
+                    <select>
+                        <option value=""> Select</option>
+                        <option value=""> A+</option>
+                        <option value=""> B+</option>
+                        <option value=""> O+</option>
+                        <option value=""> AB+</option>
+                    </select>
+            </div>
+            <div  class="choose">
+                <label>Hobbies :</label>
+                <input type="radio"required>Studying
+                <input type="radio"required>playing
+                <input type="radio"required>Reading Books
+                <input type="radio"required>others
+            </div>
+            <div class="choose" >
+                <label>Department :</label>
+                <input type="radio" name="department"required>CSE
+                <input type="radio" name="department"required>EEE
+                <input type="radio" name="department"required>BBA
+            </div>
+            <div  class="choose">
+                <label>Cource:</label>
+                <input type="radio" name="cource"required>C
+                <input type="radio" name="cource"required>C++
+                <input type="radio" name="cource"required>JAVA
+                <input type="radio" name="cource"required>AI
+            </div>
+            <div class="">
+                <label >Photo:</label>
+                <input type="file" class="input" required>
+            </div>
+            <div class="button" >
+                <input type="submit" name=" submit" class=" btn" value="submit now">
+                <input type="reset" name=" submit" class=" btn" value="reset now">
+            </div>
+        </form>
+       
+    </div>
+
+    <div class="tab">
+        <table>
+            <thead>
+                <tr>
+                    <th>SNo</th>
+                    <th>Name</th>
+                    <th>Phone No</th>
+                    <th>Gender</th>
+                    <th>City</th>
+                    <th>Hobbies</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ragini</td>
+                    <td>78348973498</td>
+                    <td>Female</td>
+                    <td>delhi</td>
+                    <td><p>dancing, singing,</p><p>laughing, cooking,</p><p>reading books</p></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Saumya</td>
+                    <td>787428998</td>
+                    <td>Female</td>
+                    <td>kerala</td>
+                    <td> <p>studying, singing,</p><p>laughing, cooking</p></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rahul</td>
+                    <td>6213763498</td>
+                    <td>Male</td>
+                    <td>Mumbai</td>
+                    <td><p>dancing, singing,</p><p>laughing, cooking,</p> <p>lisening music</p></td>
+                </tr>
+            </tbody>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
