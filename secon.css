@@ -1,0 +1,21 @@
+body{
+    padding: 40px;
+}
+table{
+
+    background-color:rgb(83, 182, 210);
+    border: 3px double black;
+    width: 80%;
+   
+}
+th{
+    height: 70px;
+    font-size: 30px;
+}
+tr,td{
+    text-align: center;
+    background:rgb(22, 156, 193);
+ height: 50px;
+ width: 100px;
+ font-size: 20px;
+}
